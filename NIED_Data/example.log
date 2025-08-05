@@ -1,0 +1,16 @@
+﻿  example.cpp
+example.cpp(11): warning C4103: ヘッダーを含めた後に配置が変更されました。#pragma pack(pop) がないためである可能性があります
+example.cpp(27): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+example.cpp(177): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+example.cpp(211): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+  コード生成しています。
+d:\projects\multisensor\vw_multisensor\20aug\ars430rdi\src\someip_rdi_receiver.cpp(532): warning C4715: 'rdi::csomeiprdireciever::HandleNetworkLayer': 値を返さないコントロール パスがあります。
+d:\projects\multisensor\vw_multisensor\20aug\ars430rdi\src\someip_rdi_receiver.cpp(334): warning C4715: 'rdi::csomeiprdireciever::UDPReceive': 値を返さないコントロール パスがあります。
+d:\projects\multisensor\vw_multisensor\20aug\ars430rdi\src\someip_rdi_receiver.cpp(207): warning C4715: 'rdi::csomeiprdireciever::GetIPAddress': 値を返さないコントロール パスがあります。
+  All 510 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+rdireceiver.lib(sensormapper.obj) : warning LNK4204: 'C:\ARS430RDI\doc\example\x64\Release\vc140.pdb' に参照するモジュールのデバッグ情報がありません。デバッグ情報を無視してオブジェクトをリンクします。
+rdireceiver.lib(rdireceiver.obj) : warning LNK4099: PDB 'rdireceiver.pdb' が 'rdireceiver.lib(rdireceiver.obj)' で、または 'C:\ARS430RDI\doc\example\x64\Release\rdireceiver.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+rdireceiver.lib(someip_rdi_receiver.obj) : warning LNK4099: PDB 'rdireceiver.pdb' が 'rdireceiver.lib(someip_rdi_receiver.obj)' で、または 'C:\ARS430RDI\doc\example\x64\Release\rdireceiver.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+  example.vcxproj -> C:\ARS430RDI\doc\example\x64\Release\example.exe
+  example.vcxproj -> C:\ARS430RDI\doc\example\x64\Release\example.pdb (Full PDB)
